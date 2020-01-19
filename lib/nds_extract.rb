@@ -28,8 +28,8 @@ def list_of_directors(source)
   # Write this implementation
   directors_name = []
   i = 0 
-  while i < d[:name].length do 
-    directors_name << d[:name][i]
+  while i < source[:name].length do 
+    directors_name << source[:name][i]
     i += 1 
   end
   return directors_name
